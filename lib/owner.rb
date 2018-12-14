@@ -62,13 +62,6 @@ class Owner
     end
   end
 
-  def sell_pets
-    # binding.pry
-    self.pets[:fishes].each do |fish| # fish instance
-      fish.mood = "happy"
-    end
-  end
-
   def say_species
     "I am a #{species}."
   end
