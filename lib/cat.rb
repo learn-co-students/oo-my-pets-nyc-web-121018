@@ -1,3 +1,5 @@
-class Cat
-  # code goes here
-end
+class Cat < Animals
+
+
+
+end #end of Cat class
